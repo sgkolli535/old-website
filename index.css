@@ -4,7 +4,7 @@
 			font-family: "Nixie One", Arial, sans-serif;
 		}
 		#wrapper {
-			background-image: url("img/city.jpg");
+			background-image: url("city.jpg");
 			height: 100vh;
 			background-attachment: fixed;
 			background-position: center;
