@@ -253,7 +253,7 @@
 			border-radius: 5px;
 			cursor: pointer;
 		}
-		#contactme .arrow {
+		/*#contactme .arrow {
 			background-color: rgba(0,0,0,0.7);
 			border-radius: 5px;
 			width: 40px;
@@ -268,7 +268,7 @@
 		.arrow img {
 			width: 40px;
 			height: 40px;
-		}
+		}*/
 		footer {
 			color: #FFFFFF;
 			text-align: center;
