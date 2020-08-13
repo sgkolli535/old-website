@@ -10,6 +10,14 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
+		@media screen and (max-width: 1024px) {
+			#wrapper {
+				background-attachment: scroll;
+				/*background-color: blue;*/
+				/*background-image: url("fixed_star.jpg");
+				background-position: none;*/
+			}
+		}
 		#link2, #link3, #link4, #link5 {
 			text-decoration: none;
 			display: block;
@@ -93,7 +101,7 @@
 			width: 550px;
 			text-align: center;
 		}
-		@media screen and (max-width: 992px) {
+		@media screen and (max-width: 1024px) {
 			#inside {
 				width: 70%;
 			}
@@ -104,6 +112,11 @@
 			#words {
 				margin-top: 10px;
 				width: 100%;
+				/*font-size: 18px;*/
+			}
+		}
+		@media screen and (max-width: 992px) {
+			#words {
 				font-size: 18px;
 			}
 		}
@@ -159,13 +172,24 @@
 		h3 {
 			text-align: center;
 		}
-		@media screen and (max-width: 992px) {
+		@media screen and (max-width: 1024px) {
 			iframe {
 				width: 100%;
 			}
 			#others {
-				width: 100%;
+				width: 70%;
 				float: none;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+		@media screen and (max-width: 992px) {
+			/*iframe {
+				width: 100%;
+			}*/
+			#others {
+				width: 100%;
+				/*float: none;*/
 			}
 			#cover, #git {
 				float: none;
@@ -229,6 +253,14 @@
 		.overlay a {
 			text-decoration: none;
 			color: black;
+		}
+		@media screen and (max-width: 1024px) {
+			.post {
+				width: 300px;
+			}
+			#left1, #left2 {
+				margin-left: 8px;
+			}
 		}
 		@media screen and (max-width: 992px) {
 			#main {
@@ -365,6 +397,11 @@
 		.arrow img {
 			width: 40px;
 			height: 40px;
+		}
+		@media screen and (max-width: 1024px) {
+			#contactme {
+				background-attachment: scroll;
+			}
 		}
 		footer {
 			color: #FFFFFF;
