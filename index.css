@@ -18,7 +18,7 @@
 				background-position: none;*/
 			}
 		}
-		#link2, #link3, #link4, #link5 {
+		#link2, #link3, #link4, #link5, #link6 {
 			text-decoration: none;
 			display: block;
 			padding-left: 20px;
@@ -210,9 +210,32 @@
 				margin-right: auto;
 			}
 		}
+		#recent h2 {
+			padding-top: 40px;
+		}
+		#recent h4, p {
+			text-align: center;
+		}
+		#recent img {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#recent {
+			padding-bottom: 50px;
+		}
+		.inline {
+			display: inline-block;
+		}
+		#more {
+			margin-left: 550px;
+		}
 		#blogs {
 			padding-top: 30px;
 			padding-bottom: 50px;
+			background-color: black;
+			color: white;
 		}
 		#main {
 			width: 1030px;
@@ -232,22 +255,49 @@
 			overflow: hidden;
 			position: relative;
 			margin-bottom: 10px;
-			border: 5px solid black;
+			border: 5px solid white;
 		}
 		.post img {
 			height: 100%;
+		}
+		#left1 {
+			background-image: url("notebook.jpg");
+		}
+		#middle1 {
+			background-image: url("hind.jpg");
+		}
+		#right1 {
+			background-image: url("reflection.jpg");
+		}
+		#left2 {
+			background-image: url("run.jpg");
+		}
+		#middle2 {
+			background-image: url("plaid.jpg");
+		}
+		#right2 {
+			background-image: url("dots.jpg");
+		}
+		#left3 {
+			background-image: url("doodle.jpg");
+		}
+		#middle3 {
+			background-image: url("search.jpg");
 		}
 		#left1, #middle1, #right1 {
 			margin-top: 10px;
 			margin-bottom: 40px;
 		}
-		#middle1, #middle2 {
+		#middle1, #middle2, #middle3 {
 			margin-left: 50px;
 			margin-right: 50px;
 		}
+		#left3, #middle3 {
+			margin-top: 30px;
+		}
 		.overlay {
-			background-color: rgba(255,255,255,0.5);
-			color: black;
+			background-color: rgba(0,0,0,0.5);
+			color: white;
 			position: absolute;
 			top: 0px;
 			right: 0px;
@@ -269,7 +319,7 @@
 			.post {
 				width: 300px;
 			}
-			#left1, #left2 {
+			#left1, #left2, #left3 {
 				margin-left: 8px;
 			}
 		}
@@ -287,7 +337,7 @@
 			.post img {
 				width: 100%;
 			}
-			#left1, #middle1, #right1, #left2, #middle2, #right2 {
+			#left1, #middle1, #right1, #left2, #middle2, #right2, #left3, #middle3 {
 				margin-left: auto;
 				margin-right: auto;
 				margin-top: 10px;
