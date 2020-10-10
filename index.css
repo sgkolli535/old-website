@@ -216,8 +216,17 @@
 		#recent h4, p {
 			text-align: center;
 		}
-		#recent img {
+		#rtc {
 			width: 70%;
+			margin-top: 10px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#flashcards {
+			height: 500px;
+			width: 20%;
+			margin-top: 10px;
 			display: block;
 			margin-left: auto;
 			margin-right: auto;
