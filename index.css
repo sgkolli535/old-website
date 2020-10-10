@@ -240,6 +240,24 @@
 		#more {
 			margin-left: 550px;
 		}
+		@media screen and (max-width: 1366px) {
+			#more {
+				margin-left: 300px
+			}
+		}
+		@media screen and (max-width: 1024px) {
+			#more {
+				margin-left: 200px
+			}
+		}
+		@media screen and (max-width: 992px) {
+			#flashcards {
+				width: 300px;
+			}
+			#more {
+				margin-left: 100px
+			}
+		}
 		#blogs {
 			padding-top: 30px;
 			padding-bottom: 50px;
