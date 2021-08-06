@@ -251,9 +251,9 @@
 			}
 		}
 		@media screen and (max-width: 992px) {
-			#flashcards {
+/* 			#flashcards {
 				width: 300px;
-			}
+			} */
 			#more {
 				margin-left: 100px
 			}
