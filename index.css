@@ -258,6 +258,11 @@
 				margin-left: 100px
 			}
 		}
+		@media screen and (max-width: 576px) {
+			#flashcards {
+				width: 80%;
+			}
+		}
 		#blogs {
 			padding-top: 30px;
 			padding-bottom: 50px;
